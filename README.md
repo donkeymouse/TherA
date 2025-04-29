@@ -1,2 +1,317 @@
-# MIRAGE
-MIRAGE Dataset
+<div align="center">
+<h1>MIRAGE: Large-Scale Aligned RGB-Thermal Infrared Dataset for Scalable Multispectral Translation</h1>
+
+[**Dong-Guw Lee**](https://rpm.snu.ac.kr)<sup>1</sup> · [**Hyunsoo Jang**](https://rpm.snu.ac.kr)<sup>1</sup> · [**Tai Hyoung Rhee**](http://rpm.snu.ac.kr/)<sup>1</sup> · [**Ukcheol Shin**](https://rpm.snu.ac.kr/)<sup>2</sup> · [**Ayoung Kim**](https://ayoungk.github.io/)<sup>1&dagger;</sup>
+
+<sup>1</sup>Seoul National University&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Carnegie Mellon University
+
+**Under-Review**
+
+<a href='https://rpm.snu.ac.kr'><img src='https://img.shields.io/badge/Project_Page-MIRAGE-blue' alt='Project Page'></a>
+<a href="https://rpm.snu.ac.kr"><img src='https://img.shields.io/badge/arXiv-MIRAGE-red' alt='ArXiv Link'></a>
+</div>
+
+
+
+## News
+- ⚡(2025-04-26): MIRAGE Dataset repo opening
+---
+
+![figure1](assets/figure1.PNG)
+
+🚀 **Introducing <ins>547k Aligned</ins> RGB-TIR Dataset featuring:**
+
+- 🚙 **Platform Diversity**: CCTV, Car, Drone, Handheld Devices
+- 🏙️ **Scene Diversity**: Urban/Suburban, Indoor/Outdoor
+- 🌗 **Temporal Diversity**: Day, Noon, Night
+- 🌦 **Environmental Diversity**: Season, Weather
+<br><br>
+- 🎞 **Flexible Tone-Mapping**: Offering both 8-bit & 14-bit TIR Images
+- 📊 **Extensive Benchmarks**: Evaluation of state-of-the-art GAN and diffusion models
+
+---
+
+## MIRAGE Overview
+
+### Dataset Overview Table
+
+<details>
+  <summary>Click to Expand</summary>
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th style="border-bottom: 2px solid black;">Category</th>
+    <th style="border-bottom: 2px solid black;">Dataset</th>
+    <th style="border-bottom: 2px solid black;">Train</th>
+    <th style="border-bottom: 2px solid black;">Test</th>
+    <th style="border-bottom: 2px solid black;">Extra</th>
+    <th style="border-bottom: 2px solid black;">Scene</th>
+    <th style="border-bottom: 2px solid black;">Weather</th>
+    <th style="border-bottom: 2px solid black;">Season</th>
+    <th style="border-bottom: 2px solid black;">Location</th>
+    <th style="border-bottom: 2px solid black;">Avg. Resolution</th>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td rowspan="8" style="border-right: 1px solid black;">Outdoor</td>
+    <td>MS²</td>
+    <td>93,746</td>
+    <td>18,896</td>
+    <td>84,358</td>
+    <td>Campus, Urban, Residential</td>
+    <td>Clear, Cloudy, Rainy</td>
+    <td>Summer</td>
+    <td>Korea</td>
+    <td>544 × 191</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>STHeReO</td>
+    <td>46,437</td>
+    <td>9,745</td>
+    <td></td>
+    <td>Campus, Suburban</td>
+    <td>Clear</td>
+    <td>Summer</td>
+    <td>Korea</td>
+    <td>601 × 245</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>ViViD</td>
+    <td>35,796</td>
+    <td>14,597</td>
+    <td></td>
+    <td>Campus</td>
+    <td>Clear, Cloudy</td>
+    <td>Spring</td>
+    <td>Korea</td>
+    <td>629 × 497</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>NSAVP</td>
+    <td>65,333</td>
+    <td>78,823</td>
+    <td></td>
+    <td>Urban, Suburban</td>
+    <td>Clear, Cloudy</td>
+    <td>Summer</td>
+    <td>Korea</td>
+    <td>640 × 512</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>CAMEL (Outdoor)</td>
+    <td>8,581</td>
+    <td>4,482</td>
+    <td></td>
+    <td>Campus, Road, Urban</td>
+    <td>Clear, Cloudy, Snow</td>
+    <td>Spring, Fall, Winter</td>
+    <td>USA</td>
+    <td>404 × 230</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>TRI2I</td>
+    <td>19,768</td>
+    <td>11,913</td>
+    <td></td>
+    <td>Campus, Road</td>
+    <td>Clear, Cloudy</td>
+    <td>Spring, Summer</td>
+    <td>USA</td>
+    <td>229 × 228</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>METU-VisTIR</td>
+    <td>33</td>
+    <td>1,052</td>
+    <td></td>
+    <td>Campus</td>
+    <td>Clear</td>
+    <td></td>
+    <td>Turkey</td>
+    <td>632 × 497</td>
+  </tr>
+
+  <tr>
+    <td><i>MIRAGE Outdoor</i></td>
+    <td>269,694</td>
+    <td>139,508</td>
+    <td>84,358</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td rowspan="5" style="border-right: 1px solid black;">Indoor</td>
+    <td>Trimodal</td>
+    <td>4,550</td>
+    <td>2,653</td>
+    <td></td>
+    <td>Room</td>
+    <td></td>
+    <td></td>
+    <td>Austria</td>
+    <td>640 × 480</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>MultiSpectralMotion</td>
+    <td>11,575</td>
+    <td>5,777</td>
+    <td>3,647</td>
+    <td>Room</td>
+    <td></td>
+    <td></td>
+    <td>China</td>
+    <td>640 × 480</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>OdomBeyondVision</td>
+    <td>20,904</td>
+    <td>4,372</td>
+    <td></td>
+    <td>Room</td>
+    <td></td>
+    <td></td>
+    <td>UK</td>
+    <td>328 × 249</td>
+  </tr>
+
+  <tr style="font-size:90%">
+    <td>CAMEL (Indoor)</td>
+    <td>221</td>
+    <td>117</td>
+    <td></td>
+    <td>Hall</td>
+    <td></td>
+    <td></td>
+    <td>USA</td>
+    <td>404 × 230</td>
+  </tr>
+
+  <tr>
+    <td><i>MIRAGE Indoor</i></td>
+    <td>37,250</td>
+    <td>12,919</td>
+    <td>88,005</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Total</td>
+    <td><b>MIRAGE</b></td>
+    <td>306,944</td>
+    <td>152,427</td>
+    <td>88,005</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td><b>MIRAGE Raw</b></td>
+    <td>278,341</td>
+    <td>130,491</td>
+    <td>88,005</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>
+
+- MIRAGE Raw represents the data pairs providing both 8-bit and raw 14-bit TIR
+</details>
+
+### Example Visualizations of each Dataset Sequence in MIRAGE (Left: RGB / Right: TIR)
+
+![representatives](assets/MIRAGE_representatives.png)
+
+
+### Comparison with Other Datasets
+
+![comparison](assets/dataset_comparison.png)
+
+MIRAGE not only surpasses existing datasets in terms of scale and diversity, but also provides 8-bit & 14-bit TIR images.
+
+---
+
+## Download
+
+Refer to the link below for dataset download.
+
+[Google Drive](https://rpm.snu.ac.kr/)
+
+---
+
+## Dataset Structure
+
+```
+  MIRAGE
+  ├── {$DATASET_NAME}
+  |   └── {$SEQUENCE_NAME}
+  |       ├── RGB
+  |       |   ├── 1.jpg
+  |       |   └── ...
+  |       └── TIR
+  |           ├── 1.jpg
+  |           └── ...
+  ├── ...
+  ├── ViVID
+  |   ├── img_campus_day1
+  |   |   ├── RGB
+  |   |   |   ├── 000001.png
+  |   |   |   └── ...
+  |   |   └── TIR
+  |   |       ├── 000001.png
+  |   |       └── ...
+  |   ├── ...
+  ├── ...
+  ```
+
+---
+
+## Benchmark Evaluation
+
+### State-of-the-Art Image Translation Model Evaluation
+
+<details>
+  <summary>Click to Expand</summary>
+Various state-of-the-art RGT-TIR image translation models were evaluated.
+(ADD FIGURES)
+</details>
+
+### Zero-shot Performance of MIRAGE
+
+<details>
+  <summary>Click to Expand</summary>
+Zero-shot performance of MIRAGE on RGB-TIR image translation was evaluated in comparison with other existing datasets
+(ADD FIGURES)
+</details>
+
+---
+
+## Citation
+If you found our work useful, please cite
+```
+@inproceedings{
+}
+```
