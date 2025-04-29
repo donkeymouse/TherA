@@ -5,6 +5,8 @@
 
 <sup>1</sup>Seoul National University&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Carnegie Mellon University
 
+![mirage_fig1](https://github.com/user-attachments/assets/89c467af-b9d4-4fad-91f3-43d13f31c06c)
+
 **Under-Review**
 
 <a href='https://rpm.snu.ac.kr'><img src='https://img.shields.io/badge/Project_Page-MIRAGE-blue' alt='Project Page'></a>
@@ -17,7 +19,7 @@
 - ⚡(2025-04-26): MIRAGE Dataset repo opening
 ---
 
-![mirage_fig1](https://github.com/user-attachments/assets/89c467af-b9d4-4fad-91f3-43d13f31c06c)
+
 
 
 🚀 **Introducing <ins>547k Aligned</ins> RGB-TIR Dataset featuring:**
