@@ -17,7 +17,7 @@
 - ⚡(2025-04-26): MIRAGE Dataset repo opening
 ---
 
-![figure1](./figure1.PNG)
+![figure1](figure1.PNG)
 
 🚀 **Introducing <ins>547k Aligned</ins> RGB-TIR Dataset featuring:**
 
