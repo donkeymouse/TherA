@@ -299,6 +299,9 @@ Refer to the link below for dataset download.
 #### RGB-to-TIR ###
 <details>
   <summary>Click to Expand</summary>
+
+It's a gif file. Changes every 5 seconds
+  
 ![rgb2tir](https://github.com/user-attachments/assets/c17ff001-8e35-43eb-be29-6d643d114854)
 
 </details>
@@ -307,6 +310,9 @@ Refer to the link below for dataset download.
 
 <details>
   <summary>Click to Expand</summary>
+
+It's a gif file. Changes every 5 seconds
+  
 ![tir2rgb](https://github.com/user-attachments/assets/ccfbfe0f-2bf8-4134-8183-b51197c03487)
 
 </details>
@@ -315,10 +321,21 @@ Refer to the link below for dataset download.
 
 <details>
   <summary>Click to Expand</summary>
+  
 Zero-shot performance of PID trained on MIRAGE in comparison to PID trained with other benchmarks
+  
 ![zero_shot](https://github.com/user-attachments/assets/b99b2a94-0e03-431a-b583-f403c252e92d)
 
 </details>
+
+
+## TODO List
+
+- [x] Open git repository
+- [x] Upload dataset
+- [x] Upload curation framework
+- [x] add more baselines
+
 
 ---
 
