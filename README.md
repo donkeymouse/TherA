@@ -332,9 +332,9 @@ Zero-shot performance of PID trained on MIRAGE in comparison to PID trained with
 ## TODO List
 
 - [x] Open git repository
-- [x] Upload dataset
-- [x] Upload curation framework
-- [x] add more baselines
+- [] Upload dataset
+- [] Upload curation framework
+- [] add more baselines
 
 
 ---
