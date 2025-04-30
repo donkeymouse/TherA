@@ -246,7 +246,7 @@
 
 ### Example Visualizations of each Dataset Sequence in MIRAGE (Left: RGB / Right: TIR)
 
-![representatives](assets/MIRAGE_representatives.png)
+![representatives](assets/MIRAGE_samples.png)
 
 
 ### Comparison with Other Datasets
