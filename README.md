@@ -332,9 +332,9 @@ Zero-shot performance of PID trained on MIRAGE in comparison to PID trained with
 ## TODO List
 
 - [x] Open git repository
-- [] Upload dataset
-- [] Upload curation framework
-- [] add more baselines
+- [ ] Upload dataset
+- [ ] Upload curation framework
+- [ ] add more baselines
 
 
 ---
@@ -342,6 +342,12 @@ Zero-shot performance of PID trained on MIRAGE in comparison to PID trained with
 ## Citation
 If you found our work useful, please cite
 ```
-@inproceedings{
+@inproceedings{mirage2025,
+title={MIRAGE: Large-Scale Aligned RGB-Thermal Infrared Dataset for Scalable Multispectral Translation},
+  author={Lee, Dong-Guw and Jang, Hyunsoo and Rhee, TaiHyoung and Shin, UkCheol and Kim, Ayoung},
+  booktitle={ArXiv},
+  year={2025}
+}
+
 }
 ```
