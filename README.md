@@ -296,18 +296,28 @@ Refer to the link below for dataset download.
 
 ### State-of-the-Art Image Translation Model Evaluation
 
+#### RGB-to-TIR ###
 <details>
   <summary>Click to Expand</summary>
-Various state-of-the-art RGT-TIR image translation models were evaluated.
-(ADD FIGURES)
+![rgb2tir](https://github.com/user-attachments/assets/c17ff001-8e35-43eb-be29-6d643d114854)
+
+</details>
+
+#### TIR-to-RGB ###
+
+<details>
+  <summary>Click to Expand</summary>
+![tir2rgb](https://github.com/user-attachments/assets/ccfbfe0f-2bf8-4134-8183-b51197c03487)
+
 </details>
 
 ### Zero-shot Performance of MIRAGE
 
 <details>
   <summary>Click to Expand</summary>
-Zero-shot performance of MIRAGE on RGB-TIR image translation was evaluated in comparison with other existing datasets
-(ADD FIGURES)
+Zero-shot performance of PID trained on MIRAGE in comparison to PID trained with other benchmarks
+![zero_shot](https://github.com/user-attachments/assets/b99b2a94-0e03-431a-b583-f403c252e92d)
+
 </details>
 
 ---
