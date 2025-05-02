@@ -1,7 +1,7 @@
 <div align="center">
 <h1>MIRAGE: Large-Scale Aligned RGB-Thermal Infrared Dataset for Scalable Multispectral Translation</h1>
 
-[**Dong-Guw Lee**](https://scholar.google.com/citations?user=u6VDnlgAAAAJ&hl=ko))<sup>1</sup> · [**Hyunsoo Jang**](https://rpm.snu.ac.kr)<sup>1</sup> · [**Tai Hyoung Rhee**](http://rpm.snu.ac.kr/)<sup>1</sup> · [**Ukcheol Shin**](https://scholar.google.com/citations?user=ZvxI80EAAAAJ&hl=ko&oi=ao)<sup>2</sup> · [**Ayoung Kim**](https://ayoungk.github.io/)<sup>1&dagger;</sup>
+[**Dong-Guw Lee**](https://scholar.google.com/citations?user=u6VDnlgAAAAJ&hl=ko)<sup>1</sup> · [**Hyunsoo Jang**](https://rpm.snu.ac.kr)<sup>1</sup> · [**Tai Hyoung Rhee**](http://rpm.snu.ac.kr/)<sup>1</sup> · [**Ukcheol Shin**](https://scholar.google.com/citations?user=ZvxI80EAAAAJ&hl=ko&oi=ao)<sup>2</sup> · [**Ayoung Kim**](https://ayoungk.github.io/)<sup>1&dagger;</sup>
 
 <sup>1</sup>Seoul National University&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Carnegie Mellon University
 
