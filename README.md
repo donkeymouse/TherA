@@ -5,7 +5,7 @@
 
 <br>
 <sup>1 </sup>Seoul National University&emsp;&emsp;&emsp;<sup>2 </sup>Kyungpook National University&emsp;&emsp;&emsp;<sup>3 </sup>KENTECH <br>
-<sup>*</sup> Equal Contribution
+<sup>*</sup> Equal Contribution&emsp;&emsp;&emsp;<sup>&dagger;</sup> Corresponding Author
 <br><br>
 
 **CVPR 2026**
@@ -23,7 +23,7 @@
 ![mirage_fig1](assets/method.png)
 
 
-🔥 **TherA**: Thermal-Aware Controllable RGB→TIR Translation
+🔥 **TherA**: Thermal-Aware VLM-based Controllable RGB→TIR Translation
 - 🧠 Thermal-Aware VLM Conditioning
 - 🎯 Dual-Level Controllability
 - 🌡 Physically Plausible Synthesis
