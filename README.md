@@ -11,7 +11,7 @@
 **CVPR 2026**
 
 <a href='https://williamrheeth.github.io/mirage_web/'><img src='https://img.shields.io/badge/Project_Page-TherA-blue' alt='Project Page'></a>
-<a href="[https://rpm.snu.ac.kr](https://arxiv.org/abs/2602.19430)"><img src='https://img.shields.io/badge/arXiv-TherA-red' alt='ArXiv Link'></a>
+<a href="https://arxiv.org/abs/2602.19430"><img src='https://img.shields.io/badge/arXiv-TherA-red' alt='ArXiv Link'></a>
 </div>
 
 
