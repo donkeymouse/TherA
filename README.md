@@ -17,26 +17,29 @@
 
 
 ## News
-- ⚡(2025-04-26): TherA & R2T2 Dataset repo opening
+- ⚡(2026-02-24): TherA & R2T2 Dataset repo opening
 ---
 
-![mirage_fig1](https://github.com/user-attachments/assets/89c467af-b9d4-4fad-91f3-43d13f31c06c)
+![mirage_fig1](assets/method.png)
 
 
+🔥 **TherA**: Thermal-Aware Controllable RGB→TIR Translation
+- 🧠 Thermal-Aware VLM Conditioning
+- 🎯 Dual-Level Controllability
+- 🌡 Physically Plausible Synthesis
+- 🏆 SoTA Performance & Strong Zero-Shot Generalization
 
-🚀 **Introducing <ins>547k Aligned</ins> RGB-TIR Dataset featuring:**
-
-- 🚙 **Platform Diversity**: CCTV, Car, Drone, Handheld Devices
-- 🏙️ **Scene Diversity**: Urban/Suburban, Indoor/Outdoor
-- 🌗 **Temporal Diversity**: Day, Noon, Night
-- 🌦 **Environmental Diversity**: Season, Weather
-<br><br>
-- 🎞 **Flexible Tone-Mapping**: Offering both 8-bit & 14-bit TIR Images
-- 📊 **Extensive Benchmarks**: Evaluation of state-of-the-art GAN and diffusion models
+📦 **R2T2**: <ins>100k+ Aligned</ins> RGB–TIR–Text Dataset
+- 🖼 112,970 Aligned Triplets: RGB image + TIR image + Canonical thermal schema
+- 🏙 Scene Diversity: Driving, CCTV, Aerial, Ego-view
+- 🌗 Temporal Diversity: Day/Night, Diurnal transitions
+- 🌦 Environmental Diversity: Weather, season, illumination variability
+- 🧱 Material & Object-Level Annotation with Structured Canonicalization
+- 📚 Compiled from 9 aligned RGB-TIR datasets with additional pseudo-aligned pairs
 
 ---
 
-## MIRAGE Overview
+## TherA Overview
 
 ### Dataset Overview Table
 
