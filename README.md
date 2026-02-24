@@ -1,21 +1,23 @@
 <div align="center">
-<h1>MIRAGE: Large-Scale Aligned RGB-Thermal Infrared Dataset for Scalable Multispectral Translation</h1>
+<h1>TherA: Thermal-Aware Visual-Language Prompting for<br>Controllable RGB-to-Thermal Infrared Translation</h1>
 
-[**Dong-Guw Lee**](https://scholar.google.com/citations?user=u6VDnlgAAAAJ&hl=ko)<sup>1</sup> · [**Hyunsoo Jang**](https://rpm.snu.ac.kr)<sup>1</sup> · [**Tai Hyoung Rhee**](http://rpm.snu.ac.kr/)<sup>1</sup> · [**Ukcheol Shin**](https://scholar.google.com/citations?user=ZvxI80EAAAAJ&hl=ko&oi=ao)<sup>2</sup> · [**Ayoung Kim**](https://ayoungk.github.io/)<sup>1&dagger;</sup>
+[**Dong-Guw Lee**](https://scholar.google.com/citations?user=u6VDnlgAAAAJ&hl=ko)<sup>1*</sup>&emsp;&emsp;[**Tai Hyoung Rhee**](https://scholar.google.com/citations?user=PF8EfdYAAAAJ&hl=en&oi=ao)<sup>1*</sup>&emsp;&emsp;[**Hyunsoo Jang**](https://rpm.snu.ac.kr)<sup>1</sup><br>[**Young-Sik Shin**](https://scholar.google.com/citations?user=gGfBRawAAAAJ&hl=en&oi=ao)<sup>2</sup>&emsp;&emsp;[**Ukcheol Shin**](https://scholar.google.com/citations?user=ZvxI80EAAAAJ&hl=ko&oi=ao)<sup>3</sup>&emsp;&emsp;[**Ayoung Kim**](https://ayoungk.github.io/)<sup>1&dagger;</sup>
 
-<sup>1</sup>Seoul National University&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Carnegie Mellon University
+<br>
+<sup>1 </sup>Seoul National University&emsp;&emsp;&emsp;<sup>2 </sup>Kyungpook National University&emsp;&emsp;&emsp;<sup>3 </sup>KENTECH <br>
+<sup>*</sup> Equal Contribution
+<br><br>
 
+**CVPR 2026**
 
-**Under-Review**
-
-<a href='https://williamrheeth.github.io/mirage_web/'><img src='https://img.shields.io/badge/Project_Page-MIRAGE-blue' alt='Project Page'></a>
-<a href="https://rpm.snu.ac.kr"><img src='https://img.shields.io/badge/arXiv-MIRAGE-red' alt='ArXiv Link'></a>
+<a href='https://williamrheeth.github.io/mirage_web/'><img src='https://img.shields.io/badge/Project_Page-TherA-blue' alt='Project Page'></a>
+<a href="[https://rpm.snu.ac.kr](https://arxiv.org/abs/2602.19430)"><img src='https://img.shields.io/badge/arXiv-TherA-red' alt='ArXiv Link'></a>
 </div>
 
 
 
 ## News
-- ⚡(2025-04-26): MIRAGE Dataset repo opening
+- ⚡(2025-04-26): TherA & R2T2 Dataset repo opening
 ---
 
 ![mirage_fig1](https://github.com/user-attachments/assets/89c467af-b9d4-4fad-91f3-43d13f31c06c)
