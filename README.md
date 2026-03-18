@@ -347,11 +347,11 @@ Zero-shot performance of PID trained on MIRAGE in comparison to PID trained with
 ## Citation
 If you found our work useful, please cite
 ```
-@inproceedings{mirage2025,
-title={MIRAGE: Large-Scale Aligned RGB-Thermal Infrared Dataset for Scalable Multispectral Translation},
-  author={Lee, Dong-Guw and Jang, Hyunsoo and Rhee, TaiHyoung and Shin, UkCheol and Kim, Ayoung},
-  booktitle={ArXiv},
-  year={2025}
+@inproceedings{lee2025thera,
+title={TherA: Thermal-Aware Visual-Language Prompting for<br>Controllable RGB-to-Thermal Infrared Translation},
+  author={Lee, Dong-Guw and Rhee, TaiHyoung and Jang, Hyunsoo and Young-Sik Shin and Shin, UkCheol and Kim, Ayoung},
+  booktitle={CVPR},
+  year={2026}
 }
 
 }
