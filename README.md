@@ -258,7 +258,6 @@
 
 ![comparison](assets/dataset_comparison.png)
 
-MIRAGE not only surpasses existing datasets in terms of scale and diversity, but also provides 8-bit & 14-bit TIR images.
 
 ---
 
@@ -273,7 +272,7 @@ Refer to the link below for dataset download.
 ## Dataset Structure
 
 ```
-  MIRAGE
+  R2T2
   ├── {$DATASET_NAME}
   |   └── {$SEQUENCE_NAME}
   |       ├── RGB
@@ -297,53 +296,6 @@ Refer to the link below for dataset download.
 
 ---
 
-## Benchmark Evaluation
-
-### State-of-the-Art Image Translation Model Evaluation
-
-#### RGB-to-TIR ###
-<details>
-  <summary>Click to Expand</summary>
-
-It's a gif file. Changes every 5 seconds
-  
-![rgb2tir](https://github.com/user-attachments/assets/c17ff001-8e35-43eb-be29-6d643d114854)
-
-</details>
-
-#### TIR-to-RGB ###
-
-<details>
-  <summary>Click to Expand</summary>
-
-It's a gif file. Changes every 5 seconds
-  
-![tir2rgb](https://github.com/user-attachments/assets/ccfbfe0f-2bf8-4134-8183-b51197c03487)
-
-</details>
-
-### Zero-shot Performance of MIRAGE
-
-<details>
-  <summary>Click to Expand</summary>
-  
-Zero-shot performance of PID trained on MIRAGE in comparison to PID trained with other benchmarks
-  
-![zero_shot](https://github.com/user-attachments/assets/b99b2a94-0e03-431a-b583-f403c252e92d)
-
-</details>
-
-
-## TODO List
-
-- [x] Open git repository
-- [ ] Upload dataset
-- [ ] Upload curation framework
-- [ ] add more baselines
-
-
----
-
 ## Citation
 If you found our work useful, please cite
 ```
@@ -352,7 +304,5 @@ title={TherA: Thermal-Aware Visual-Language Prompting for<br>Controllable RGB-to
   author={Lee, Dong-Guw and Rhee, TaiHyoung and Jang, Hyunsoo and Young-Sik Shin and Shin, UkCheol and Kim, Ayoung},
   booktitle={CVPR},
   year={2026}
-}
-
 }
 ```
