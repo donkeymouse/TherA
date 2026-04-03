@@ -17,7 +17,7 @@
 
 
 ## News
-- ⚡(2026-02-24): TherA & R2T2 Dataset repo opening
+- ⚡(2026-04-03): TherA & R2T2 Dataset repo opening
 ---
 
 ![mirage_fig1](assets/method.png)
