@@ -86,11 +86,11 @@ TherA/
 ├── thera_paths.py              # Default local weight paths
 ├── thera_llava.py              # Lazy LLaVA loader
 └── weights/                    # Download weights here; not tracked by git
-    ├── model.pt                # TherA Model
+    ├── checkpoint/               # TherA Model (contains model.pt)
     ├── merged_models/          # Initialization model
     │   ├── unet/
     │   └── adapter/
-    ├── stable-diffusion/       
+    ├── stable-diffusion/
     │   ├── vae/
     │   └── scheduler/
     ├── reference_caches/
@@ -98,16 +98,12 @@ TherA/
     │   ├── CLOUDY.pt
     │   ├── RAINY.pt
     │   └── NIGHT.pt
-    ├── reference_caches/
-    │   │   ├── SUNNY.pt
-    │   │   ├── CLOUDY.pt
-    │   │   ├── RAINY.pt
-    │   │   └── NIGHT.pt
-    └── TherA-VLM/                  # Optional; only for on-the-fly mode
-        ├── adaptor_config.json/
-        └── adapter_model.safetensors
-        └── config.json
-        └── non_lora_trainables.bin
+    ├── llava-1.5-7b-hf/          # LLaVA base model (optional, for on-the-fly mode)
+    └── TherA-VLM/                # LoRA adapter weights (optional, for on-the-fly mode)
+        ├── adaptor_config.json
+        ├── adapter_model.safetensors
+        ├── config.json
+        ├── non_lora_trainables.bin
         └── trainer_state.json
 ```
 
