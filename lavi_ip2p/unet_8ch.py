@@ -129,12 +129,7 @@ def load_lavi_unet_8ch(
     if lora_path is not None:
         print(f"\n[2/3] Applying LaVi-Bridge LoRA from {lora_path}...")
         
-        # Import LoRA utilities (robust path resolution)
-        import sys
-        import os
-        lavi_bridge_path = os.path.join(os.path.dirname(__file__), "../LaVi-Bridge")
-        sys.path.insert(0, lavi_bridge_path)
-        from modules.lora import monkeypatch_or_replace_lora_extended
+        from lavi_bridge.modules.lora import monkeypatch_or_replace_lora_extended
         
         VIS_REPLACE_MODULES = {"ResnetBlock2D", "CrossAttention", "Attention", "GEGLU"}
         

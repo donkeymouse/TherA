@@ -8,12 +8,8 @@ Uses LaVi-Bridge's TextAdapter with optional preprocessing (RMSNorm, scaling).
 import torch
 import torch.nn as nn
 from typing import Optional
-import sys
-import os
 
-# Add LaVi-Bridge to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../LaVi-Bridge"))
-from modules.adapters import TextAdapter
+from lavi_bridge.modules.adapters import TextAdapter
 
 
 class RMSNorm(nn.Module):
