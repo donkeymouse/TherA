@@ -81,7 +81,7 @@ TherA/
 ├── infer_example_guided.py     # Single-image / example-guided inference
 ├── infer_palette.sh        # Run multiple weather/style palettes
 ├── lavi_ip2p/                  # UNet 8-channel + adapter wrapper
-├── LaVi-Bridge/modules/        # TextAdapter architecture
+├── lavi_bridge/modules/        # TextAdapter architecture (from LaVi-Bridge)
 ├── llava/                      # LLaVA code, only needed for on-the-fly mode
 ├── thera_paths.py              # Default local weight paths
 ├── thera_llava.py              # Lazy LLaVA loader
